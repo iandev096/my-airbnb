@@ -2,3 +2,10 @@
   display: flex;
   padding: 30px;
 }
+
+@media only screen and (max-width: 800px) {
+  .home__section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
